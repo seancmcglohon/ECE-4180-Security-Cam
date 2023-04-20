@@ -34,9 +34,9 @@ Also in Interfaces, enable VNC if desired to use a VNC on your computer for Pi o
 ### Setup Mbed
 
 With the Mbed mounted to the breadboard, first attach VL53L0X using 3.3(Vout) for Vin, p28 for SDA, p27 for SCL, P26 for shdn, and Gnd to Gnd.
-Attach LED in series with a 220 ohm resister from ground to P5.
-Attach speaker with Class D audio output as described [here](https://os.mbed.com/users/4180_1/notebook/using-a-speaker-for-audio-output/).
-Attach Mbed to Raspberry Pi using micro USB cable with USBTX and USBRX.
+  Attach LED in series with a 220 ohm resister from ground to P5.
+  Attach speaker with Class D audio output as described [here](https://os.mbed.com/users/4180_1/notebook/using-a-speaker-for-audio-output/).
+  Attach Mbed to Raspberry Pi using micro USB cable with USBTX and USBRX.
 
 ### Program Mbed and Raspberry Pi
 
