@@ -25,18 +25,18 @@ Security camera using Rapberry Pi Zero W and mbed peripherals
 
 ### Setup Raspberry Pi
 
-Perform a basic Raspberry Pi setup including Raspian OS using a micro SD card and an imager, as described [here](https://www.raspberrypi.com/software/).
-Setup wifi using the Raspberry Pi Imager.
-After OS is installed, update Raspberry Pi using `sudo apt update` and `sudo apt full-upgrade` in the terminal window.
-After upgrading, make sure Camera module is attached properly, and enabled via Preferences->Raspberry Pi Configuration->Interfaces.
+Perform a basic Raspberry Pi setup including Raspian OS using a micro SD card and an imager, as described [here](https://www.raspberrypi.com/software/).  
+Setup wifi using the Raspberry Pi Imager.  
+After OS is installed, update Raspberry Pi using `sudo apt update` and `sudo apt full-upgrade` in the terminal window.  
+After upgrading, make sure Camera module is attached properly, and enabled via Preferences->Raspberry Pi Configuration->Interfaces.  
 Also in Interfaces, enable VNC if desired to use a VNC on your computer for Pi operation.
 
 ### Setup Mbed
 
 With the Mbed mounted to the breadboard, first attach VL53L0X using 3.3(Vout) for Vin, p28 for SDA, p27 for SCL, P26 for shdn, and Gnd to Gnd.
-  Attach LED in series with a 220 ohm resister from ground to P5.
-  Attach speaker with Class D audio output as described [here](https://os.mbed.com/users/4180_1/notebook/using-a-speaker-for-audio-output/).
-  Attach Mbed to Raspberry Pi using micro USB cable with USBTX and USBRX.
+Attach LED in series with a 220 ohm resister from ground to P5.
+Attach speaker with Class D audio output as described [here](https://os.mbed.com/users/4180_1/notebook/using-a-speaker-for-audio-output/).
+Attach Mbed to Raspberry Pi using micro USB cable with USBTX and USBRX.
 
 ### Program Mbed and Raspberry Pi
 
