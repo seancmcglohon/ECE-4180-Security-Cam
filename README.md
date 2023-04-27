@@ -19,7 +19,7 @@ Security camera using Rapberry Pi Zero W and mbed peripherals
 + Breadboard for prototyping
 + RGB LED for breadboard
 + Speaker with Class D audio output
-+ VL53L0X LiDAR
++ VL53L0X LiDAR  
 ![VL53L0X](https://www.geeky-gadgets.com/wp-content/uploads/2016/11/Time-of-Flight-Distance-Sensor.jpg)
 + Jumper wires
 + micro SD card
