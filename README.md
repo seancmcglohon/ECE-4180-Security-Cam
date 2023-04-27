@@ -14,7 +14,7 @@ Security camera using Rapberry Pi Zero W and mbed peripherals
 ![Zero W](https://images.prismic.io/rpf-products/9371b539-77d4-47f1-b89b-aa65b23c9833_RPI%20ZERO%20W%20ANGLE%202%20REFRESH_.jpg?ixlib=gatsbyFP&auto=compress%2Cformat&fit=max&w=799&h=533)
 + Raspberry Pi Camera Module
 ![Camera](https://images.prismic.io/rpf-products/ffa68a46-fd44-4995-9ad4-ac846a5563f1_Camera%20V2%20Hero.jpg?ixlib=gatsbyFP&auto=compress%2Cformat&fit=max&w=799&h=533)
-+ Mbed NXP LPC1768 microcontroller (possible with other microcontrollers such as Arduino)
++ Mbed NXP LPC1768 microcontroller (possible with other microcontrollers such as Arduino)  
 ![Mbed](https://os.mbed.com/media/platforms/lpc1768_pinout.png)
 + Breadboard for prototyping
 + RGB LED for breadboard
