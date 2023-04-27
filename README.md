@@ -1,4 +1,4 @@
-# ECE 4180 Security Cam
+# Raspberry Pi Security Camera
 Security camera using Rapberry Pi Zero W and mbed peripherals
 
 ### Features:
