@@ -11,15 +11,21 @@ Security camera using Rapberry Pi Zero W and mbed peripherals
 ### Required materials:
 
 + Raspberry Pi (we used Zero W)
+![Zero W](https://images.prismic.io/rpf-products/9371b539-77d4-47f1-b89b-aa65b23c9833_RPI%20ZERO%20W%20ANGLE%202%20REFRESH_.jpg?ixlib=gatsbyFP&auto=compress%2Cformat&fit=max&w=799&h=533)
 + Raspberry Pi Camera Module
+![Camera](https://images.prismic.io/rpf-products/ffa68a46-fd44-4995-9ad4-ac846a5563f1_Camera%20V2%20Hero.jpg?ixlib=gatsbyFP&auto=compress%2Cformat&fit=max&w=799&h=533)
 + Mbed NXP LPC1768 microcontroller (possible with other microcontrollers such as Arduino)
+![Mbed](https://os.mbed.com/media/platforms/lpc1768_pinout.png)
 + Breadboard for prototyping
-+ Simple LED for breadboard
++ RGB LED for breadboard
 + Speaker with Class D audio output
 + VL53L0X LiDAR
+![VL53L0X](https://www.geeky-gadgets.com/wp-content/uploads/2016/11/Time-of-Flight-Distance-Sensor.jpg)
 + Jumper wires
 + micro SD card
 + External 5V power supply
++ 2 100 ohm resistors
++ 1 180 ohm resistor
 
 ## Process
 
@@ -33,8 +39,10 @@ Also in Interfaces, enable VNC if desired to use a VNC on your computer for Pi o
 
 ### Setup Mbed
 
-With the Mbed mounted to the breadboard, first attach VL53L0X using 3.3(Vout) for Vin, p28 for SDA, p27 for SCL, P26 for shdn, and Gnd to Gnd.  
-Attach LED in series with a 220 ohm resister from ground to P5.  
+With the Mbed mounted to the breadboard, first attach VL53L0X using 3.3(Vout) for Vin, p28 for SDA, p27 for SCL, P26 for shdn, and Gnd to Gnd.
+![image](https://user-images.githubusercontent.com/109312052/234923030-9e7328f0-6e25-4d12-9294-a8aed80df002.png)
+Attach RGB LED in series with 3 resistors. The 180 ohm resistor is used for the red LED, and 100 ohm resistors lead from the green and blue LEDs. The red LED connects with p23, the green with p22, and blue with p21 PWM outputs on the Mbed. Don't forget to connect the ground lead on the LED as well.
+![LED](https://os.mbed.com/media/uploads/4180_1/rgbledschematic.png)
 Attach speaker with Class D audio output as described [here](https://os.mbed.com/users/4180_1/notebook/using-a-speaker-for-audio-output/).  
 Attach Mbed to Raspberry Pi using micro USB cable with USBTX and USBRX.
 
