@@ -44,7 +44,9 @@ With the Mbed mounted to the breadboard, first attach VL53L0X using 3.3(Vout) fo
 Attach RGB LED in series with 3 resistors. The 180 ohm resistor is used for the red LED, and 100 ohm resistors lead from the green and blue LEDs. The red LED connects with p23, the green with p22, and blue with p21 PWM outputs on the Mbed. Don't forget to connect the ground lead on the LED as well.
 ![LED](https://os.mbed.com/media/uploads/4180_1/rgbledschematic.png)
 Attach speaker with Class D audio output as described [here](https://os.mbed.com/users/4180_1/notebook/using-a-speaker-for-audio-output/).  
-Attach Mbed to Raspberry Pi using micro USB cable with USBTX and USBRX.
+Attach Mbed to Raspberry Pi using micro USB cable with USBTX and USBRX.  
+
+![mbed](https://user-images.githubusercontent.com/109312052/235088869-fea34a87-7b29-4777-8c76-e7d8400c034a.jpeg)
 
 ### Program Mbed and Raspberry Pi
 
