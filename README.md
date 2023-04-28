@@ -45,7 +45,6 @@ Attach RGB LED in series with 3 resistors. The 180 ohm resistor is used for the 
 ![LED](https://os.mbed.com/media/uploads/4180_1/rgbledschematic.png)
 Attach speaker with Class D audio output as described [here](https://os.mbed.com/users/4180_1/notebook/using-a-speaker-for-audio-output/).  
 Attach Mbed to Raspberry Pi using micro USB cable with USBTX and USBRX.  
-
 ![mbed](https://user-images.githubusercontent.com/109312052/235088869-fea34a87-7b29-4777-8c76-e7d8400c034a.jpeg)
 
 ### Program Mbed and Raspberry Pi
