@@ -1,6 +1,7 @@
 # Raspberry Pi Security Camera
 Security camera using Rapberry Pi Zero W and mbed peripherals  
-Video Demo on Youtube [here](https://youtu.be/k5zMMj071lc)
+Video Demo on Youtube [here](https://youtu.be/k5zMMj071lc)  
+URL: https://youtu.be/k5zMMj071lc
 
 ### Features:
 
