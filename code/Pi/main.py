@@ -53,15 +53,15 @@ sender = Emailer()
 while True:
     if ser.in_waiting > 0:
         line = ser.readline().decode('utf-8').rstrip()
-		if(line == "1"):
+	if '1' in line:
             detected = True
-		if(detected == True):
-            detected = False
-			image = '/home/pi/Desktop/image.jpg'
-			camera.capture(image)
-			sendTo = ''
-			emailSubject = "Motion Detected"
-			emailContent = "Image attached"
-			sender.sendmail(sendTo, emailSubject, emailContent, image)
-			print("Email Sent")
+	if(detected == True):
+            	detected = False
+		image = '/home/pi/Desktop/image.jpg'
+		camera.capture(image)
+		sendTo = '' #change this to your recipient, or yourself
+		emailSubject = "Motion Detected"
+		emailContent = "Image attached"
+		sender.sendmail(sendTo, emailSubject, emailContent, image)
+		print("Email Sent")
     time.sleep(10)
